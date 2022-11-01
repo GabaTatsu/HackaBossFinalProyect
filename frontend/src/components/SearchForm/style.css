@@ -1,0 +1,26 @@
+.searchform {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40rem;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.searchform section {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+.searchform img {
+  width: 1rem;
+}
+.searchform button {
+  width: 1.5rem;
+  border-radius: 20%;
+}
+.searchform section:nth-child(1) > input:nth-child(2) {
+  width: 30rem;
+  border-radius: 0.7rem;
+  padding-left: 1rem;
+}

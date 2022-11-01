@@ -1,0 +1,18 @@
+.listadocomentarios > li {
+  border: 1px solid #000;
+  width: 35rem;
+  margin: 0.3rem;
+  border-radius: 0.5rem;
+}
+.listadocomentarios > li > section:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+.listadocomentarios > li > section:nth-child(1) > aside > img {
+  width: 1.5rem;
+  border-radius: 50%;
+}
+.listadocomentarios > li > p {
+  padding: 0.3rem;
+}

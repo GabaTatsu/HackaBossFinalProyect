@@ -1,0 +1,36 @@
+.profilepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profileform {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  background-color: white;
+  width: 40rem;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.profileform > img {
+  width: 8rem;
+  height: 8rem;
+}
+.profileform > aside:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.profileform > aside:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}

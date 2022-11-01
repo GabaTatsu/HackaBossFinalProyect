@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "ZeldaFont";
+  src: url("../src/assets/fonts/TheWildBreathofZelda.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body {
+  background: url(../src/assets/images/fondo.jpeg) fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.error-message {
+  font-weight: bold;
+  color: red;
+}
+
+.alert {
+  position: fixed;
+  left: 50vw;
+  bottom: 3rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.alert img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.alert.success {
+  background: green;
+}
+.alert.error {
+  background-color: rgb(252, 231, 231);
+  color: red;
+  box-shadow: rgb(42, 39, 39);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.alertdelete {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 8rem;
+  min-width: 35rem;
+  background-color: white;
+  border: 6px solid #ffe600;
+  box-shadow: 0 0 5px black;
+}
+
+.alertdelete img {
+  align-self: flex-start;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.alertdelete section {
+  display: flex;
+  flex-direction: column;
+  min-height: 6rem;
+  justify-content: space-between;
+}
+.alertdelete aside {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.alertdelete section form {
+  display: flex;
+}
+.alertdelete section form button img {
+  width: 0.8rem;
+  height: 0.8rem;
+  transform: translateY(-1rem);
+}
+.alertdelete section form button {
+  height: 1.2rem;
+}
+.alertwrapper {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 30%);
+}
+h2 {
+  font-family: "ZeldaFont";
+  font-size: 2.5rem;
+  color: rgb(74, 197, 144);
+  text-shadow: 2px 2px 5px black;
+  font-weight: normal;
+}

@@ -1,0 +1,32 @@
+header {
+  top: 0;
+  padding: 0.3rem 1rem;
+  background: url(../../assets/images/madera.jpeg) fixed;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  position: sticky;
+  z-index: 1;
+}
+.logoPagina {
+  width: 9rem;
+}
+header img {
+  width: 17rem;
+}
+
+header nav {
+  margin-top: 0.3rem;
+}
+
+header nav ul a {
+  text-decoration: none;
+}
+
+header nav ul p {
+  pointer-events: none;
+  position: absolute;
+  transform: translate(5rem, 40%);
+  color: black;
+  text-shadow: 2px 2px 3px white;
+}

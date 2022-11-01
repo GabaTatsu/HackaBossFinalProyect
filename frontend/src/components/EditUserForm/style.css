@@ -1,0 +1,19 @@
+.edituserform {
+  display: flex;
+  justify-content: space-between;
+  width: 38rem;
+}
+.edituserform > label > img {
+  width: 8rem;
+  height: 8rem;
+}
+.edituserform > aside > p > button > img {
+  width: 0.8rem;
+}
+.edituserform > aside {
+  padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: center;
+}
